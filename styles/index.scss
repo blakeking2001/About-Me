@@ -1,0 +1,51 @@
+/**colors
+#0A0EF0
+#040BDB
+#7B84DB
+#F2F2F2
+#0D0D0D
+ */
+header{
+  padding: 60px;
+  text-align: center;
+  background: #040BDB;
+  color: white;
+  font-size: 40px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7B84DB;
+  color: red;
+  color: #0D0D0D;
+  text-align: center;
+}
+
+h1 {
+  color: #7B84DB;
+}
+h2 {
+  color: #0D0D0D;
+}
+h3 {
+  color: #0A0EF0;
+}
+
+.column {
+  float: left;
+  width: 46%;
+  padding: 20px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table, th, td {
+  border: 1px solid black;
+}
